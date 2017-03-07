@@ -1,9 +1,13 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 <?php
-$nom ="Thomas";
-$prenom = "MILLIEN";
+$nom ="MILLIEN";
+$prenom = "Thomas";
 $age = "21";
 
-echo "$nom, $prenom, $age";
+echo "<div>
+		<h2>Exercice 1 </h2>
+		<p>$nom, $prenom, $age</p>
+	 </div>";
 
 $km = 1;
 echo " </br> $km";

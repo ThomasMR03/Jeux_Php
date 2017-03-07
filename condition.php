@@ -30,6 +30,19 @@
 	?>
 </div>
 
+<div>
+	<?php
+	$age = 21;
+	$genre = "homme";
+
+	if ($age >= 18){
+		echo "Vous êtes un $genre majeur";
+	}else{
+		echo "Vous êtes un $genre mineur";
+	}
+	?>
+</div>
+
 <footer>
 	
 </footer>

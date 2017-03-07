@@ -32,3 +32,6 @@ echo "</br> $int";
 
 $int = 30;
 echo "</br> $int";
+
+$nom2 = "ROMERO Thomas";
+echo "<p> Bonjour $nom2, comment va tu ? </p>";

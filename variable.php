@@ -62,6 +62,13 @@ $age2 = 21;
 echo " Bonjour $nom3 $prenom2, tu as $age2 ans !"; ?>
 </div>
 
+<div>
+	<?php $addition = 3+4;
+			$multiplication = 5*20;
+			$division = 45/5;
+			echo '<p>3+4 = '.$addition.'</p>','<p>5x20 = '.$multiplication.'</p>','<p>45/5 = '.$division.'</p>'; ?>
+</div>
+
 <footer>
 	
 </footer>

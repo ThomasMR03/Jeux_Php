@@ -4,6 +4,7 @@
 
 div {
 	border: 10px solid black;
-	height: 100px;
-	width: 150px;
+	background-color: red;
+	text-align: center;
+	color: #FFFFFF;
 }

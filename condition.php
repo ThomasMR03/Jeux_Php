@@ -22,10 +22,11 @@
 <div>
 	<?php
 	$ifeasy = true;
-	if ($ifeasy = true)
+	if ($ifeasy == false) {
 		echo "C'est facile !";
-	if ($ifeasy = false)
-		echo "C'est difficile !";
+		}else{
+			echo "C'est difficile !";
+	}
 	?>
 </div>
 

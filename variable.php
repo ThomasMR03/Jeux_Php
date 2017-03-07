@@ -18,7 +18,7 @@
 
 <div>
 	<?php $km = 1;
-			echo " </br> $km";
+			echo "$km";
 			$km = 3;
 			echo "</br> $km";
 			$km = 125;
@@ -34,13 +34,13 @@ $int = 15;
 
 $booleans = true;
 
-echo " </br> $string </br> $float </br> $int </br> $booleans"; ?>
+echo "$string </br> $float </br> $int </br> $booleans"; ?>
 </div>
 	
 <div>
 	<?php $int = NULL;
 
-echo "</br> $int";
+echo "$int";
 
 $int = 30;
 echo "</br> $int"; ?>
@@ -49,7 +49,7 @@ echo "</br> $int"; ?>
 <div>
 	<?php
 $nom2 = "ROMERO Thomas";
-echo "<p> Bonjour $nom2, comment va tu ? </p>";
+echo "Bonjour $nom2, comment va tu ?";
 ?>
 </div>
 

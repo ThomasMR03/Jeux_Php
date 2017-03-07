@@ -13,6 +13,7 @@
 		<ul>
 			<li>
 				<a class="btn btn-danger" href="variable.php">Exo 1</a>
+				<a class="btn btn-danger" href="condition.php">Exo 2</a>
 			</li>
 		</ul>
 	</nav>

@@ -1,0 +1,6 @@
+#nav li {
+	list-style-type: none;
+	border: 2px solid #CECECE;
+	height: 20px;
+	width: 40px;
+}

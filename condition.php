@@ -19,6 +19,16 @@
 	?>
 </div>
 
+<div>
+	<?php
+	$ifeasy = true;
+	if ($ifeasy = true)
+		echo "C'est facile !";
+	if ($ifeasy = false)
+		echo "C'est difficile !";
+	?>
+</div>
+
 <footer>
 	
 </footer>

@@ -4,9 +4,7 @@ $prenom = "MILLIEN";
 $age = "21";
 
 echo "$nom, $prenom, $age";
-?>
 
-<?php
 $km = 1;
 echo " </br> $km";
 $km = 3;
@@ -23,3 +21,10 @@ $int = 15;
 $booleans = true;
 
 echo " </br> $string </br> $float </br> $int </br> $booleans";
+
+$int = NULL;
+
+echo "</br> $int";
+
+$int = 30;
+echo "</br> $int";

@@ -24,7 +24,38 @@ while ($var <= 20){
 	$var++;
 }
 ?>
+</div>
 
+<div>
+	<?php
+$var = 0;
+$var2 = 30;
+while ($var >= 10){
+	print($var * $var2);
+	$var--;
+}
+?>
+a corriger
+</div>
+
+<div>
+	<?php
+	$var = 1;
+	while ($var <= 10){
+		print($var);
+		$var++;
+}
+?>
+a corriger
+</div>
+
+<div>
+	<?php
+$var = "On y arrive presque ! ";
+for ($i=1; $i < 15 ; $i++) { 
+	echo "$var";
+}
+?>
 </div>
 
 </body>

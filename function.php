@@ -51,5 +51,15 @@
 	?>
 </div>
 
+<div>
+	<?php
+	$var = "Bonjour";
+	$var2 = 10;
+	function concat2 ($var, $var2){
+		return ($var . $var2);
+	}
+	?>
+</div>
+
 </body>
 </html>

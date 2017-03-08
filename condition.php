@@ -111,6 +111,17 @@
 			?>
 </div>
 
+<div>
+	<?php
+				$maVariable=true;
+				if($maVariable){
+					echo "C'est ok !";
+				}else{
+					echo "C'est pas bon !";
+				}
+			?>
+</div>
+
 <footer>
 	
 </footer>

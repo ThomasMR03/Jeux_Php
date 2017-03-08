@@ -58,5 +58,11 @@
 	?>
 </div>
 
+<div>
+	<?php
+		print_r($tableau);
+	?>
+</div>
+
 </body>
 </html>

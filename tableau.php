@@ -64,5 +64,13 @@
 	?>
 </div>
 
+<div>
+	<?php
+	foreach ($tableau as $key => $value) {
+		print_r("Le " .$key." ,correspond à " .$value. ".</br>");
+	}
+	?>
+</div>
+
 </body>
 </html>

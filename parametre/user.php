@@ -13,7 +13,13 @@ echo "Cette variable n'existe pas";
 }
 ?>
 <div>
-<?php echo $_POST['civilite'];?>
+<?php
+if (isset($_POST['civilite'])) {
+	echo $_POST['civilite'];
+}else{
+echo "Cette variable n'existe pas </br>";
+}
+?>
 <?php
 if (isset($_POST['nom'])) {
 	echo $_POST['nom'];
@@ -30,6 +36,10 @@ echo "Cette variable n'existe pas";
 ?>
 </div>
 
+<?php if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['civilite'])) : ?>
+	Bonjour, <?= $_POST['civilite'];?> <?= $_POST['nom']; ?> <?= $_POST['prenom']; ?> 
+<?php else : ?>
+	<div>
 <link href="../css/bootstrap.css" rel="stylesheet">
 <form action="user.php" method="POST">
 <select name="civilite">
@@ -40,3 +50,5 @@ echo "Cette variable n'existe pas";
  <p>Votre prenom : <input type="text" name="prenom" /></p>
  <p><input class="btn btn-danger" type="submit" value="OK"></p>
 </form>
+</div>
+<?php endif; ?>

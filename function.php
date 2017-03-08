@@ -23,5 +23,15 @@
 	?>
 </div>
 
+<div>
+	<?php
+	function concat ($var, $var2){
+		$var = "coucou";
+		$var = "salut";
+		return ($var = $var2);
+	}
+	?>
+</div>
+
 </body>
 </html>

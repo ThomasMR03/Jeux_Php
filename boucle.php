@@ -15,5 +15,17 @@ while ($var <= 10) {
 ?>
 </div>
 
+<div>
+	<?php
+$var = 0;
+$var2 = 49;
+while ($var <= 20){
+	print($var * $var2);
+	$var++;
+}
+?>
+
+</div>
+
 </body>
 </html>

@@ -28,25 +28,24 @@ while ($var <= 20){
 
 <div>
 	<?php
-$var = 0;
+$var = 100;
 $var2 = 30;
-while ($var >= 10){
-	print($var * $var2);
-	$var--;
+	while($var>=10){
+		$total=$var*$var2;
+		echo $total.'/ ';
+		$var--;
 }
 ?>
-a corriger exo 3
 </div>
 
 <div>
 	<?php
 	$var = 1;
 	while ($var <= 10){
-		print($var);
-		$var++;
+		echo $var.'/ ';
+			$var=$var+($var/2);
 }
 ?>
-a corriger exo 4
 </div>
 
 <div>

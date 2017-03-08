@@ -15,13 +15,13 @@
 
 <div>
 	<?php
-	var_dump($tab[3]);
+	var_dump($tab[2]);
 	?>
 </div>
 
 <div>
 	<?php
-	var_dump($tab[4]);
+	var_dump($tab[5]);
 	?>
 </div>
 

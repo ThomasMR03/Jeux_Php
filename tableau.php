@@ -12,11 +12,11 @@
 
 	?>
 </div>
+	
+<div>
 	<?php
 	var_dump($tab[3]);
 	?>
-<div>
-	
 </div>
 
 </body>

@@ -7,15 +7,21 @@
 
 <div>
 	<?php
-	$tab = array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre");
+	$tab = array("Janvier", "Fevrier", "Mars", "Julien", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre");
 	var_dump($tab);
 
 	?>
 </div>
-	
+
 <div>
 	<?php
 	var_dump($tab[3]);
+	?>
+</div>
+
+<div>
+	<?php
+	var_dump($tab[4]);
 	?>
 </div>
 

@@ -16,6 +16,7 @@
 				<a class="btn btn-danger" href="condition.php">Exo 2</a>
 				<a class="btn btn-danger" href="boucle.php">Exo 3</a>
 				<a class="btn btn-danger" href="function.php">Exo 4</a>
+				<a class="btn btn-danger" href="tableau.php">Exo 5</a>
 			</li>
 		</ul>
 	</nav>

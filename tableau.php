@@ -7,7 +7,7 @@
 
 <div>
 	<?php
-	$tab = array("Janvier", "Fevrier", "Mars", "Julien", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre");
+	$tab = array("Janvier ", "Fevrier ", "Mars ", "Julien ", "Mai ", "Juin ", "Juillet ", "Aout ", "Septembre ", "Octobre ", "Novembre ", "Decembre ");
 	var_dump($tab);
 
 	?>
@@ -47,6 +47,14 @@
 	<?php
 	$tableau[] = array(51 => "Reims");
 	print_r($tableau);
+	?>
+</div>
+
+<div>
+	<?php
+	foreach ($tab as $value) {
+		print_r($value);
+	}
 	?>
 </div>
 

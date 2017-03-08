@@ -33,5 +33,23 @@
 	?>
 </div>
 
+<div>
+	<?php
+	$var = 10;
+	$var2 = 12;
+	function nombre ($var, $var2){
+		if ($var > $var2) {
+			return ($var);
+		}
+		if ($var < $var2) {
+			return ($var);
+		}
+		if ($var = $var2) {
+			return ($var);
+		}
+	}
+	?>
+</div>
+
 </body>
 </html>

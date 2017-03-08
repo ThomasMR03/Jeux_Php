@@ -27,8 +27,8 @@
 	<?php
 	function concat ($var, $var2){
 		$var = "coucou";
-		$var = "salut";
-		return ($var = $var2);
+		$var2 = "salut";
+		return ($var . $var2);
 	}
 	?>
 </div>

@@ -1,6 +1,20 @@
 <?php
- $nom = $_GET['nom'];
- $prenom = $_GET['prenom'];
+if (isset($_GET['nom'])) {
+	echo $_GET['nom'];
+}else{
+echo "Cette variable n'existe pas </br>";
+}
 ?>
- <?php echo $nom?>
- <?php echo $prenom?>
+<?php
+if (isset($_GET['prenom'])) {
+	echo $_GET['prenom'];
+}else{
+echo "Cette variable n'existe pas";
+}
+?>
+<div>
+<?php
+echo $_POST['nom'] ;
+echo $_POST['prenom'];
+?>
+</div>

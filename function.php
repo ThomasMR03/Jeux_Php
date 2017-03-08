@@ -14,5 +14,14 @@
 	?>
 </div>
 
+<div>
+	<?php
+	function chaine ($var){
+		$var = "Bonjour";
+		return ($var);
+	}
+	?>
+</div>
+
 </body>
 </html>

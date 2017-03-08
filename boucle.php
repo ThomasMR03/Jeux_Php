@@ -58,5 +58,14 @@ for ($i=1; $i < 15 ; $i++) {
 ?>
 </div>
 
+<div>
+	<?php
+	$var = "C'est presque bon ! ";
+	for ($i=20; $i > 0  ; $i--) { 
+		echo "$var";
+	}
+	?>
+</div>
+
 </body>
 </html>

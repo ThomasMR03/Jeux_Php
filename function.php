@@ -61,5 +61,16 @@
 	?>
 </div>
 
+<div>
+	<?php
+	$nom = "Millien";
+	$prenom = "Thomas";
+	$age = 21;
+	function message ($nom, $prenom, $age){
+		return ("Bonjour," +$nom+ +$prenom+", tu as" +$age+ "ans !");
+	}
+	?>
+</div>
+
 </body>
 </html>

@@ -93,9 +93,20 @@
 	<?php
 				$maVariable=false;
 				if($maVariable == false){
-					echo "c'est pas bon !";
+					echo "C'est pas bon !";
 				}else{
-					echo "c'est ok !";
+					echo "C'est ok !";
+				}
+			?>
+</div>
+
+<div>
+	<?php
+				$monAge = 21;
+				if($monAge >= 18){
+					echo 'Tu es majeur';
+				}else{
+					echo "Tu n'es pas majeur";
 				}
 			?>
 </div>

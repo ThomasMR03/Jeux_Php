@@ -78,6 +78,17 @@
 			?>
 </div>
 
+<div>
+	<?php
+				$maVariable = "homme";
+				if($maVariable != 'Homme'){
+					echo 'C\'est un développeur !';
+				}else{
+					echo 'C\'est une développeuse !';
+				}
+			?>
+</div>
+
 <footer>
 	
 </footer>

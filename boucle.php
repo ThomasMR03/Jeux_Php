@@ -35,7 +35,7 @@ while ($var >= 10){
 	$var--;
 }
 ?>
-a corriger
+a corriger exo 3
 </div>
 
 <div>
@@ -46,7 +46,7 @@ a corriger
 		$var++;
 }
 ?>
-a corriger
+a corriger exo 4
 </div>
 
 <div>
@@ -61,8 +61,17 @@ for ($i=1; $i < 15 ; $i++) {
 <div>
 	<?php
 	$var = "C'est presque bon ! ";
-	for ($i=20; $i > 0  ; $i--) { 
+	for ($i=20; $i > 0 ; $i--) { 
 		echo "$var";
+	}
+	?>
+</div>
+
+<div>
+	<?php
+	$var = "On tient le bon bout ! ";
+	for ($i=1; $i < 100 ; $i+= 15) { 
+	echo "$var";
 	}
 	?>
 </div>

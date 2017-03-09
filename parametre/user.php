@@ -36,19 +36,21 @@ echo "Cette variable n'existe pas";
 ?>
 </div>
 
-<?php if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['civilite'])) : ?>
+<?php if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['civilite']) && isset($_POST['fichier'])) : ?>
 	Bonjour, <?= $_POST['civilite'];?> <?= $_POST['nom']; ?> <?= $_POST['prenom']; ?> 
 <?php else : ?>
 	<div>
 <link href="../css/bootstrap.css" rel="stylesheet">
-<form action="user.php" method="POST">
+<form action="user.php" method="POST" enctype="multipart/form-data">
 <select name="civilite">
 <option value="Monsieur"> Mr </option>
 <option value="Madame"> Mme </option>
 </select>
  <p>Votre nom : <input type="text" name="nom" /></p>
  <p>Votre prenom : <input type="text" name="prenom" /></p>
+ <p><input type="file" name="fichier"></p>
  <p><input class="btn btn-danger" type="submit" value="OK"></p>
+
 </form>
 </div>
 <?php endif; ?>

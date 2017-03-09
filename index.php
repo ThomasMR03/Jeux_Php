@@ -18,7 +18,7 @@
 				<a class="btn btn-danger" href="function.php">Exo 4</a>
 				<a class="btn btn-danger" href="tableau.php">Exo 5</a>
 				<a class="btn btn-danger" href="parametre.php">Exo 6</a>
-				<a class="btn btn-danger" href="super_global.php">Exo 7</a>
+				<a class="btn btn-danger" href="super_global.php">Exo 8</a>
 			</li>
 		</ul>
 	</nav>

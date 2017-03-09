@@ -38,6 +38,12 @@ echo "Cette variable n'existe pas";
 
 <?php if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['civilite']) && isset($_POST['fichier'])) : ?>
 	Bonjour, <?= $_POST['civilite'];?> <?= $_POST['nom']; ?> <?= $_POST['prenom']; ?> 
+	<?php
+	$fichier = explode('.',$_POST['fichier']);
+	if ($fichier[1] == 'pdf') {
+		echo $_POST['fichier'];
+	}
+	?>
 <?php else : ?>
 	<div>
 <link href="../css/bootstrap.css" rel="stylesheet">

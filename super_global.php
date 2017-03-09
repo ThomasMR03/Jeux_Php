@@ -24,5 +24,26 @@
 	?>
 </div>
 
+/* Exo 3 */
+<?php
+$temps = 365*24*3600;
+setcookie("connexion", time() + $temps);
+if (isset($_POST['login']) && isset($_POST['password'])){
+$_COOKIE = $_POST['login'];
+$_COOKIE = $_POST['password'];
+}
+?>
+<div>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<form action="" method="POST">
+ 	<p>Votre Login : <input type="text" name="login" /></p>
+ 	<p>Votre mot de passe : <input type="text" name="password" /></p>
+ 	<p><input class="btn btn-danger" type="submit" value="OK"></p>
+	</form>
+
+	<?php echo $_POST['login']; ?>
+	<?php echo $_POST['password']; ?>
+</div>
+
 </body>
 </html>

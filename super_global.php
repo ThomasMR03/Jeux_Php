@@ -29,8 +29,8 @@
 $temps = 365*24*3600;
 setcookie("connexion", time() + $temps);
 if (isset($_POST['login']) && isset($_POST['password'])){
-$_COOKIE = $_POST['login'];
-$_COOKIE = $_POST['password'];
+$_COOKIE['connexion'] = $_POST['login'];
+$_COOKIE['connexion'] = $_POST['password'];
 }
 ?>
 <div>

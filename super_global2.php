@@ -13,5 +13,11 @@
 
 <?php echo '<br /><a href="super_global.php">Super Global</a>'; ?>
 
+<?php
+if (isset($_COOKIE['connexion'])) {
+	echo $_POST['login'];
+	echo $_POST['password'];
+}
+?>
 </body>
 </html>

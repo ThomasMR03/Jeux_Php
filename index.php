@@ -19,6 +19,7 @@
 				<a class="btn btn-danger" href="tableau.php">Exo 5</a>
 				<a class="btn btn-danger" href="parametre.php">Exo 6</a>
 				<a class="btn btn-danger" href="super_global.php">Exo 8</a>
+				<a class="btn btn-danger" href="date.php">Exo 9</a>
 			</li>
 		</ul>
 	</nav>
